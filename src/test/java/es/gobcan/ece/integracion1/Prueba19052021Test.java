@@ -36,6 +36,6 @@ public class Prueba19052021Test {
 	
 	@Test
 	public void Prueba3Test () {		
-		assertEquals("0 + 0 es 0", -1, Prueba19052021.suma(0, 0) );
+		assertEquals("0 + 0 es 0", 0, Prueba19052021.suma(0, 0) );
 	}
 }

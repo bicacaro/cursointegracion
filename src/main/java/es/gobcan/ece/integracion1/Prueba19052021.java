@@ -7,10 +7,11 @@ public class Prueba19052021 {
 	
 	public static final Logger logger = Logger.getLogger("es.gobcan.ece.integracion.Prueba19052021");
 
-	public static Integer suma(Integer numero1, Integer numero2) {		
-		
-		numero2 = null;
-		return (numero1.intValue() + numero2.intValue());
+	//public static Integer suma(Integer numero1, Integer numero2) {		
+	public static int suma(int numero1, int numero2) {		
+		//numero2 = null;
+		//return (numero1.intValue() + numero2.intValue());
+		return (numero1 + numero2);
 	}
 	
 	public static void main(String[] args) {

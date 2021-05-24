@@ -41,7 +41,7 @@ public class OperacionesTest {
 	
 	@Test
 	public void PruebaDivision2Test () {		
-		assertEquals("100 / 0 es 2", 0, Operaciones.division(100, 0));		
+		assertEquals("100 / 100 es 1", 1, Operaciones.division(100, 100));		
 	}
 	
 	@Test
